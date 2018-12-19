@@ -111,5 +111,6 @@ public class ShowOrdersToDemoInnerClasses : UIControllerBase
 }
 ```
 * Note that when we call it, we are sending `this` as a parameter to it's constructor. This means that we are sending the parent controller as a parameter to the inner controller. Later we'll be able to use that `_parent` on our inner controller, to access fields in the `parent` controller.
+* If your inner controller needs to open a view, the article <a href="http://doc.fireflymigration.com/adding-a-view-to-a-nested-class.html">"Adding a View to a Nested Class"</a> shows you how.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tmzHPxAyP7U?list=PL1DEQjXG2xnK8xPqBW89oPL6AHonic9Iz" frameborder="0" allowfullscreen></iframe>
 
